@@ -3,7 +3,6 @@
 <div>
     <span>Public Key</span> <input name="public_key"/>
 </div>
-<br/>
 <div>
     <form>
         <div>
