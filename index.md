@@ -34,4 +34,6 @@
     </form>
 </div>
 
-{% include script.js %}
+<script>
+    {% include script.js %}
+</script>
