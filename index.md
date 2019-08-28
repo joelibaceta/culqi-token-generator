@@ -1,7 +1,8 @@
 <script src="https://checkout.culqi.com/v2"></script>
 
+<span id="token"><span>
 <div>
-    <span>Public Key</span> <input name="public_key"/>
+    <span>Public Key</span> <input id="public_key_input"/>
 </div>
 <div>
     <form>
@@ -32,6 +33,7 @@
             </label>
         </div>
     </form>
+    <a href="javascript:doTokenize()"> Generar Token </a>
 </div>
 
 <script>
