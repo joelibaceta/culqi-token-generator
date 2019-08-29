@@ -4,14 +4,14 @@ function setUpCulqi(publicKey) {
     Culqi.init();
 }
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+function writeOutput() {
+    document.getElementById("token").textContent = Culqi.token.id;
 }
 
 function doTokenize() {
     Culqi.createToken();
-    await sleep(2000);
-    document.getElementById("token").textContent = Culqi.token.id;
+     
+    setTimeout(writeOutput, 2000);
 }
 
 function publicKeyInputChange() {
