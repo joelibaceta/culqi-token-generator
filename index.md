@@ -1,4 +1,4 @@
-<script src="https://checkout.culqi.com/v2"></script>
+<script src="https://culqi-static-files.s3.amazonaws.com/v2/culqi.js"></script>
 
 <span id="token"><span>
 <div>
